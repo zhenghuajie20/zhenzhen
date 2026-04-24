@@ -2,6 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>可爱针针</title>
     <style>
         * {
@@ -51,22 +52,23 @@
 </head>
 <body>
     <div class="photo">
-        <img src="c:\Users\len\Desktop\针针\1.jpg" alt="针针1">
+        <img src="1.jpg" alt="针针1">
     </div>
     <div class="photo">
-        <img src="c:\Users\len\Desktop\针针\2.png" alt="针针2">
+        <img src="2.png" alt="针针2">
     </div>
     <div class="photo">
-        <img src="c:\Users\len\Desktop\针针\3.jpg" alt="针针3">
+        <img src="3.jpg" alt="针针3">
     </div>
     <div class="photo">
-        <img src="c:\Users\len\Desktop\针针\4.jpg" alt="针针4">
+        <img src="4.jpg" alt="针针4">
     </div>
     <div class="photo">
-        <img src="c:\Users\len\Desktop\针针\5.png" alt="针针5">
+        <img src="5.png" alt="针针5">
     </div>
     <div class="photo">
-        <img src="c:\Users\len\Desktop\针针\6.jpg" alt="针针6">
+        <img src="6.jpg" alt="针针6">
     </div>
 </body>
 </html>
+
