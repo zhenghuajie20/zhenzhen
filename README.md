@@ -1,1 +1,72 @@
-# index.html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>可爱针针</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f0f0f0;
+            padding: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .photo {
+            width: 260px;
+            height: 360px;
+            background: white;
+            padding: 10px 10px 30px 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        /* 不同角度的错落布局 */
+        .photo:nth-child(1) { transform: rotate(-5deg) translateY(10px); }
+        .photo:nth-child(2) { transform: rotate(8deg) translateY(-5px); }
+        .photo:nth-child(3) { transform: rotate(-2deg) translateY(15px); }
+        .photo:nth-child(4) { transform: rotate(4deg) translateY(-10px); }
+        .photo:nth-child(5) { transform: rotate(-6deg) translateY(5px); }
+        .photo:nth-child(6) { transform: rotate(3deg) translateY(20px); }
+
+        /* 悬停动画效果 */
+        .photo:hover {
+            transform: rotate(0deg) scale(1.1) translateY(0);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div class="photo">
+        <img src="c:\Users\len\Desktop\针针\1.jpg" alt="针针1">
+    </div>
+    <div class="photo">
+        <img src="c:\Users\len\Desktop\针针\2.png" alt="针针2">
+    </div>
+    <div class="photo">
+        <img src="c:\Users\len\Desktop\针针\3.jpg" alt="针针3">
+    </div>
+    <div class="photo">
+        <img src="c:\Users\len\Desktop\针针\4.jpg" alt="针针4">
+    </div>
+    <div class="photo">
+        <img src="c:\Users\len\Desktop\针针\5.png" alt="针针5">
+    </div>
+    <div class="photo">
+        <img src="c:\Users\len\Desktop\针针\6.jpg" alt="针针6">
+    </div>
+</body>
+</html>
