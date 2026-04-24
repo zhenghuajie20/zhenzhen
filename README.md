@@ -2,7 +2,6 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>可爱针针</title>
     <style>
         * {
@@ -34,7 +33,6 @@
             height: 100%;
             object-fit: cover;
         }
-        /* 不同角度的错落布局 */
         .photo:nth-child(1) { transform: rotate(-5deg) translateY(10px); }
         .photo:nth-child(2) { transform: rotate(8deg) translateY(-5px); }
         .photo:nth-child(3) { transform: rotate(-2deg) translateY(15px); }
@@ -42,7 +40,6 @@
         .photo:nth-child(5) { transform: rotate(-6deg) translateY(5px); }
         .photo:nth-child(6) { transform: rotate(3deg) translateY(20px); }
 
-        /* 悬停动画效果 */
         .photo:hover {
             transform: rotate(0deg) scale(1.1) translateY(0);
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
@@ -71,4 +68,3 @@
     </div>
 </body>
 </html>
-
